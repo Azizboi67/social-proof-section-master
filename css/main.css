@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    background: url('../images/bg-pattern-top-desktop.svg') no-repeat left  top / 600px 600px,
+    url('../images/bg-pattern-bottom-mobile.svg') no-repeat right bottom / 800 800;
+}
